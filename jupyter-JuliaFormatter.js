@@ -7,8 +7,8 @@ define(['./kernel_exec_on_cell'], function (kernel_exec_on_cell) {
     var cfg = {
         add_toolbar_button: true,
         hotkeys: {
-            process_selected: 'Alt-F',
-            process_all: 'Alt-Shift-F',
+            process_selected: 'Ctrl-B',
+            process_all: 'Ctrl-Shift-B',
         },
         register_hotkey: true,
         show_alerts_for_errors: true,
