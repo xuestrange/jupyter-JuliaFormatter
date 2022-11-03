@@ -33,12 +33,12 @@ Parameters:
 - name: jupyter-JuliaFormatter.hotkeys.process_selected
   description: Hotkey to use to prettify the selected cell(s)
   input_type: hotkey
-  default: 'Alt-F'
+  default: 'Ctrl-B'
 
 - name: jupyter-JuliaFormatter.hotkeys.process_all
   description: Hotkey to use to prettify the whole notebook
   input_type: hotkey
-  default: 'Alt-Shift-F'
+  default: 'Ctrl-Shift-B'
 
 - name: jupyter-JuliaFormatter.show_alerts_for_not_supported_kernel
   description: Show alerts if the kernel is not supported
