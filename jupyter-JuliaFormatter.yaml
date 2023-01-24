@@ -62,10 +62,5 @@ Parameters:
         "library": "import json\ndef JuliaFormatter_reformat(cell_text):\n    import JuliaFormatter\n    import re\n    cell_text = re.sub('^%', '#%#', cell_text, flags=re.M)\n    reformated_text = JuliaFormatter.format_str(cell_text, mode=JuliaFormatter.FileMode())\n    return re.sub('^#%#', '%', reformated_text, flags=re.M)",
         "prefix": "print(json.dumps(JuliaFormatter_reformat(u",
         "postfix": ")))"
-      },
-      "javascript": {
-        "library": "jsbeautify = require('js-beautify')",
-        "prefix": "console.log(JSON.stringify(jsbeautify.js_beautify(",
-        "postfix": ")));"
       }
     }
